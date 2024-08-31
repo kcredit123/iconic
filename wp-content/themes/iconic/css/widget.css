@@ -1,0 +1,196 @@
+.inputs ol li {
+    float: left;
+}
+
+#booking_widget {
+    position: relative;
+    z-index: 1;
+    float: right;
+    background: #000;
+    padding: 7px 6px 2px 6px;
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    border-bottom: 3px solid #E2146B;
+}
+
+.string-txt {
+    margin-bottom: 6px !important;
+}
+
+#rollup_widget form fieldset.inputs ol li.string input,
+#booking_widget form fieldset.inputs ol li.string.short input {
+    text-align: center;
+    background-size: 100% 100% !important;
+}
+
+#rollup_widget form fieldset.inputs ol li.string input,
+#booking_widget form fieldset.inputs ol li.string.short input {
+    text-align: center;
+    background-size: 100% 100% !important;
+}
+
+.string {
+    margin: 10px 0 !important;
+}
+
+.string-txt {
+    background: url(https://www.iconichotel.com.my/wp-content/uploads/2018/01/Asset-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12px 20px 12px 0;
+    background-size: 100% 100%;
+}
+
+.formtastic fieldset {
+    border: none;
+    padding: 0;
+}
+
+.string-txt h2 {
+    margin: 0;
+    font-size: 20px;
+    padding: 0 12px;
+    font-weight: normal;
+    margin-right: 12px;
+    line-height: 23px;
+}
+
+.string {
+    position: relative;
+}
+
+.ui-datepicker-trigger {
+    width: 16px;
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}
+
+input.check_availability: hover {
+    border-radius: 3px !important;
+    border: none !important;
+    padding: 6px 33px 6px 21px !important;
+    display: block !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    font-size: 16px;
+    background: url(https://www.iconichotel.com.my/wp-content/uploads/2018/01/button.png) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    margin: 14px 0 0 0 !important;
+}
+
+.inputs ol li:nth-child(3) {
+    margin-right: 30px !important;
+}
+
+.inputs ol li:nth-child(5) {
+    margin-right: 30px !important;
+}
+
+.inputs ol li:nth-child(6) {
+    margin-right: 30px !important;
+}
+
+.string-price {
+    float: right;
+    width: 115px;
+    margin-left: 30px !important;
+    margin-top: 18px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.actions {
+    margin-top: 10px !important;
+}
+
+#booking_widget {
+    position: relative;
+    margin-top: -40px;
+}
+
+#rollup_widget form fieldset.inputs select,
+#booking_widget form fieldset.inputs select {
+    background: url(https://www.iconichotel.com.my/wp-content/uploads/2018/01/Homepage_2.png);
+    background-repeat: no-repeat;
+    width: 160px;
+    border: none;
+    background-size: cover !important;
+    height: 30px !important;
+    text-align: right;
+    padding-right: 35px;
+    font-size: 12px;
+}
+
+@media (max-width: 640px) {
+    .fixeddiv_booknow a:first-child {
+        float: left;
+        width: 20%;
+    }
+    .fixeddiv_booknow .fa {
+        width: 100% !important;
+    }
+    .string-txt {
+        display: none;
+    }
+    #booking_widget {
+        top: 0;
+        right: 0;
+        background-image: none;
+        margin-bottom: 60px;
+        overflow: hidden;
+        padding: 12px;
+        width: 100%;
+        position: relative;
+    }
+    #rollup_widget form fieldset.inputs ol li.string input,
+    #booking_widget form fieldset.inputs ol li.string input {
+        width: 100%;
+    }
+    .inputs li.string input {
+        background: #fff !important;
+        text-align: left !important;
+        padding-left: 36px;
+        padding-right: 0 !important;
+    }
+    .inputs ol li:last-child {
+        float: none !important;
+        margin: 0 auto !important;
+    }
+    #ui-datepicker-div {
+        top: 155% !important;
+    }
+    .ui-datepicker-trigger {
+        left: 12px;
+    }
+    .inputs ol li {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    #rollup_widget form fieldset.inputs ol li.string input,
+    #booking_widget form fieldset.inputs ol li.string.short input {
+        width: 100%;
+        background-size: 100% 100% !important;
+    }
+    .inputs ol li:nth-child(3) {
+        margin-right: 0 !important;
+    }
+    .inputs ol li:nth-child(5) {
+        margin-right: 0 !important;
+    }
+    .inputs ol li:nth-child(6) {
+        margin-right: 0 !important;
+    }
+    .meetingwraper .post_slide {
+        background-size: 100% 85% !important;
+        background-repeat: no-repeat;
+    }
+    .rightbtn button {
+        border: none;
+    }
+}
